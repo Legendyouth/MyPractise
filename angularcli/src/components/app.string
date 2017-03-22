@@ -1,0 +1,28 @@
+<div class="m-container">
+   <div class="m-wrapper" id="m-wrapper" ui-view>
+   </div>
+   <footer>
+      <ul>
+           <li ui-sref='app.home'>
+              <i class="yo-ico">&#xe6bb;</i>
+              <b>首页</b>
+           </li>
+           <li ui-sref='app.search'>
+              <i class="yo-ico">&#xe65c;</i>
+              <b>发现</b>
+           </li>
+           <li>
+              <i class="yo-ico">&#xe664;</i>
+           </li>
+           <li ui-sref='app.my'>
+               <i class="yo-ico">&#xe735;</i>
+               <b>我的</b>
+            </li>
+           <li ui-sref='app.exit'>
+               <i class="yo-ico">&#xe603;</i>
+               <b>退出</b>
+           </li>
+        </ul>
+   </footer>
+</div>
+

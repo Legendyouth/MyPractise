@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			-webkit-user-select: none;
+		}
+		ul,ol,li{
+			list-style: none;
+		}
+		.container{
+			width: 400px;
+			height: 400px;
+			border: 1px solid #eee;
+			background: orange;
+			overflow: hidden;
+			margin: 30px auto;
+		}
+		.container>ul>li{
+			height: 100px;
+			width: 100px;
+			float: left;
+			border: 1px solid yellow;
+			-webkit-box-sizing: border-box;
+			text-align: center;
+			line-height: 100px;
+			color: #fff;
+			font-size: 22px;
+			cursor: pointer;
+		}
+		.container>ul>li.active{
+			background: #fff;
+			box-shadow: 0 0 30px 10px #aaa inset;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="container">
+		<ul>
+			<li @click='fAnimate(index,event)' v-for='(value,index) in rArr' :class="value == ''?active:''">{{value}}</li>
+		</ul>
+	</div>
+	<script src='./vue.js'></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el:'#container',
+			data:{
+				rArr:[],
+				active:'active'
+			},
+			created(){
+				for(var j = 0;this.rArr.length<15;j++){
+					var ran = Math.floor(Math.random()*16+1);
+					if(this.rArr.indexOf(ran) == -1){
+						this.rArr.push(ran);
+					}
+				}
+				this.rArr.push("");
+			},
+			methods:{
+				fAnimate:function(ind){
+					var flag = this.rArr[ind];
+					if(this.rArr[ind+1] == ""){
+						this.$set(this.rArr,ind+1,flag);
+						this.$set(this.rArr,ind,"");
+					}else if(this.rArr[ind-1] == ""){
+						this.$set(this.rArr,ind-1,flag);
+						this.$set(this.rArr,ind,"");
+					}
+					if(this.rArr[ind+4] == ""){
+						this.$set(this.rArr,ind+4,flag);
+						this.$set(this.rArr,ind,"");
+					}else if(this.rArr[ind-4] == ""){
+						this.$set(this.rArr,ind-4,flag);
+						this.$set(this.rArr,ind,"");
+					}
+				}
+			}
+		})
+	</script>
+</body>
+</html>

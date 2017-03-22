@@ -1,0 +1,68 @@
+<div class="home" id='home'>
+   <header>
+        <ul>
+          <li class="yo-ico homemenu">&#xe745;</li>
+          <li>
+             <ul id="title">
+              <li v-for='(item,index) in title' @click='TitlecurActive(index)' :class="TitleactiveIndex == index ? 'active' : ''">{{item}}</li>
+             </ul>
+          </li>
+          <li class="yo-ico sm">&#xe684;</li>
+        </ul>
+    </header>
+    <div class="homesection">
+        <div class="swiper-container" id="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-flex">
+                <nav>
+                   <ul id="nav">
+                      <li v-for='(item,index) in nav' :class="NavactiveIndex == index ? 'active' : ''" @click='NavcurActive(index)'>
+                        {{item}}
+                      </li>
+                   </ul>
+                </nav>
+                <div class="sectioncontent">
+                  <div class="swiper-container" id="swiper-main">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="homescroll" id="homescroll">
+                              <div class="scrolldiv">
+                                  <div class="head">
+                                     <img src="/src/img/images/arrow.png" alt="">
+                                     <span>下拉刷新</span>
+                                  </div>
+                                  <ul v-for="(item,index) in datas">
+                                     <li>
+                                        <img :src="item[0].img">
+                                        <b>{{item[0].title}}</b>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                         <img :src="item[1].img">
+                                        <b>{{item[1].title}}</b>
+                                     </li>
+                                   </ul>
+                                   <div class="foot">
+                                      <img src="/src/img/images/arrow.png" alt="">
+                                      <span>上拉加载</span>
+                                   </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          足球美女...
+                      </div>
+                      <div class="swiper-slide">
+                          足球先生...<br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                关注......
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

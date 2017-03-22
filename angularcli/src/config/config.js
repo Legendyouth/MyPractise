@@ -1,0 +1,33 @@
+angular.module('mapp')
+	.config(stateFun);
+stateFun.$injector = ['$stateProvider','$urlRouterProvider'];
+function stateFun($stateProvider,$urlRouterProvider)
+{
+	$urlRouterProvider.otherwise('/guide');
+	$stateProvider
+		.state('guide',{
+			url:'/guide',
+			templateUrl:'./src/components/guide.string',
+			controller:'guideCtrl'
+		})
+		.state('app',{
+			url:'/app',
+			templateUrl:'./src/components/app.string'
+		})
+		.state('app.home',{
+			url:'/home',
+			templateUrl:'./src/components/home.string'
+		})
+		.state('app.search',{
+			url:'/search',
+			templateUrl:'./src/components/search.string'
+		})
+		.state('app.my',{
+			url:'/my',
+			templateUrl:'./src/components/my.string'
+		})
+		.state('app.exit',{
+			url:'/exit',
+			templateUrl:'./src/components/exit.string'
+		})
+}

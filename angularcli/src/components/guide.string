@@ -1,0 +1,19 @@
+<div class="guidecon">
+    <div class="swiper-container" id="guideSwiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./src/img/images/slide1.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="./src/img/images/slide2.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="./src/img/images/slide3.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="./src/img/images/slide4.png">
+                <b id="btn" class="btn" ui-sref='app.home'></b>
+            </div>
+        </div>
+    </div>
+</div>
