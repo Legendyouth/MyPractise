@@ -1,0 +1,351 @@
+.about-container {
+    .about-wrap {
+        max-width: 960px;
+        >.about-sidebar,
+        >.about-main {
+            float: left;
+        } 
+        >.about-main {
+            width: 686px;
+            >ul {
+                >li {
+                    display: none;
+                    margin-top: 25px;
+                    padding: 20px; 
+                    &.active {
+                        display: block;
+                    }
+                    &.introduce,
+                    &.bus-line,
+                    &.environment,
+                    &.recruitment {
+                        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+                        border: 1px solid #cccccc \9;
+                    }
+                    &.introduce {
+                        >section {
+                            >h3 {
+                                text-align: center;
+                                font-size: 25px;
+                                margin-bottom: 20px;
+                            }
+                            >p {
+                                margin-bottom: 20px;
+                                line-height: 25px;
+                                >span {
+                                    &:after {
+                                        content: '';
+                                        display: inline-block;
+                                        width: 0;
+                                        height: 0;
+                                        border: 6px solid transparent;
+                                        border-left: 8px solid #4c3ada;
+                                    }
+                                }
+                            }
+                            >.picture {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            &.first {
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                    &.environment {
+                        >section {
+                            &.first {
+                                margin-bottom: 20px;
+                            }
+                            >h3 {
+                                text-align: center;
+                                font-size: 25px;
+                                margin-bottom: 20px;
+                            }
+                            >p {
+                                margin-bottom: 20px;
+                            }
+                            >div {
+                                img {
+                                    display: block;
+                                    width: 100%;
+                                }
+                            }
+                            >ul {
+                                >li {
+                                    float: left;
+                                    margin: 0 2% 2% 0;
+                                    &.bj-img1,
+                                    &.bj-img2,
+                                    &.bj-img3,
+                                    &.bj-img4 {
+                                        width: 32%;
+                                        height: 203px;
+                                    }
+                                    &.bj-img3 {
+                                        margin-right: 0;
+                                    }
+                                    &.bj-img5 {
+                                        width: 66%;
+                                        height: 203px;
+                                        margin-right: 0;
+                                    }
+                                    &.xa-img1 {
+                                        width: 56%;
+                                        height: 215px;
+                                    }
+                                    &.xa-img2 {
+                                        width: 42%;
+                                        height: 240px;
+                                        margin-right: 0;
+                                    }
+                                    &.xa-img3 {
+                                        width: 42%;
+                                        height: 196px;
+                                        position: relative;
+                                        top: -27px;
+                                    }
+                                    &.xa-img4 {
+                                        width: 56%;
+                                        height: 169px;
+                                        margin-right: 0;
+                                    }
+                                    img {
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.bus-line {
+                        >section {
+                            >header {
+                                text-align: center;
+                                padding: 20px 0 40px 0;
+                                h3 {
+                                    font-size: 25px;
+                                    font-weight: 600; 
+                                }
+                            }
+                            >.detail {
+                                >section {
+                                    &.line {
+                                        margin-right: 2%;
+                                        width: 100%;
+                                        >ol {
+                                            >li {
+                                                line-height: 30px;
+                                                &.first {
+                                                    margin-bottom: 20px;
+                                                }
+                                                >h3 {
+                                                    font-size: 16px;
+                                                }
+                                                >h4 {
+                                                    font-size: 16px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                >p {
+                                                    margin-bottom: 10px;
+                                                    &.color-blue {
+                                                        color: #3390f2;
+                                                    }
+                                                    &.color-red {
+                                                        color: #fc4b5a;
+                                                    }
+                                                    &.color-orange {
+                                                        color: #fd8248;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.map {
+                                        text-align: center;
+                                        width: 100%;
+                                        margin-top: 20px;
+                                        >img {
+                                            display: block;
+                                            width: 100%;
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                }
+                            }
+                            &.xa-wrap {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                    &.recruitment {
+                        max-height: 700px;
+                        overflow-y: auto;
+                        >h3 {
+                            font-size: 25px;
+                            text-align: center;
+                            margin-bottom: 20px;
+                        }
+                        >ol {
+                            >li {
+                                float: left;
+                                margin: 0 2% 20px 2%;
+                                line-height: 25px;
+                                >section {
+                                    >h2 {
+                                        width: 100%;
+                                        text-align: center;
+                                        padding: 4px 0;
+                                        color: #ffffff;
+                                        font-size: 16px;
+                                        background-color: #4c3ada;
+                                        max-width: 153px;
+                                        border-radius: 100px;
+                                        margin-bottom: 20px;
+                                    }
+                                    >h3 {
+                                        font-weight: 600;
+                                        >span {
+                                            &:after {
+                                                content: '';
+                                                display: inline-block;
+                                                width: 0;
+                                                height: 0;
+                                                border: 6px solid transparent;
+                                                border-left: 8px solid #4c3ada;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        >.about-sidebar {
+            float: left;
+            padding: 25px;
+            >ul {
+                >li {
+                    cursor: pointer;
+                    text-align: center;
+                    padding: 0 20px;
+                    line-height: 35px;
+                    &.active {
+                        background: #8f92c1;
+                        color: #ffffff;
+                        border-radius: 3px;
+                        >span {
+                            border: none;
+                            box-shadow: none;
+                        }
+                    }
+                    >span {
+                        display: block;
+                        padding: 0 30px;
+                        border-radius: 3px;
+                        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+                        border: 1px solid #cccccc \9;
+                    }
+                    &:hover {
+                        background: #8f92c1;
+                        color: #ffffff;
+                        border-radius: 3px;
+                        >span {
+                            border: none;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            >.about-sidebar,
+            >.about-main {
+                float: none;
+                display: block;
+            } 
+            >.about-main {
+                width: auto;
+                >ul {
+                    >li {
+                        &.bus-line {
+                            >section {
+                                >.detail {
+                                    >section {
+                                        &.line {
+                                            width: 100%;
+                                        }
+                                        &.map {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                                &.xa-wrap {
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+            >.about-sidebar {
+                margin-top: 20px;
+                padding: 0;
+                >ul {
+                    margin: 0 auto;
+                    >li {
+                        cursor: pointer;
+                        float: left;
+                        text-align: center;
+                        padding: 0;
+                        line-height: normal;
+                        margin-right: 11px;
+                        >span {
+                            display: block;
+                            padding: 6px 7px;
+                            border-radius: 3px;
+                            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+                            border: 1px solid #cccccc \9;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 320px) {
+            >.about-sidebar,
+            >.about-main {
+                float: none;
+                display: block;
+            } 
+            >.about-sidebar {
+                margin-top: 20px;
+                padding: 0;
+                >ul {
+                    margin: 0 auto;
+                    >li {
+                        cursor: pointer;
+                        float: left;
+                        text-align: center;
+                        padding: 0;
+                        line-height: normal;
+                        margin-right: 0;
+                        >span {
+                            display: block;
+                            padding: 6px 7px;
+                            border-radius: 3px;
+                            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+                            border: 1px solid #cccccc \9;
+                        }
+                    }
+                }
+            }
+            >.about-main {
+                float: none;
+                display: block;
+            } 
+        }
+    }
+}

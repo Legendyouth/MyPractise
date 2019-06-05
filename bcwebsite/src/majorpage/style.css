@@ -1,0 +1,190 @@
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list {
+  width: 99.8%;
+  overflow: hidden;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked {
+  padding: 3px 0;
+  max-height: 235px;
+  overflow: hidden;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section {
+  text-align: center;
+  background-color: #ffffff;
+  width: 95%;
+  margin-left: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #cccccc \9;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > h3 {
+  color: #ffffff;
+  background-color: #0099ff;
+  padding: 30px 20px;
+  font-size: 24px;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > div > span {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > div > span > img {
+  width: 20px;
+  height: 30px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > div > p {
+  font-size: 28px;
+  color: #e3411e;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students {
+  max-height: 820px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section {
+  width: 95%;
+  margin-left: 3px;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li {
+  position: relative;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > img {
+  display: block;
+  width: 78%;
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  z-index: 1;
+  border-radius: 13%;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > div img {
+  display: block;
+  width: 100%;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > h3 {
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  width: 90%;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > h3 i,
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > h3 span {
+  display: inline-block;
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > h3 > span {
+  float: right;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > span > em {
+  color: #e3411e;
+}
+.major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students .swiper-slide > section > div > ul > li > p {
+  width: 90%;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.major-container > .major-wrap .employment-situation {
+  position: relative;
+}
+.major-container > .major-wrap .employment-situation > div {
+  float: left;
+  width: 60%;
+}
+.major-container > .major-wrap .employment-situation > .salary-structure-img > img {
+  display: block;
+  width: 100%;
+}
+.major-container > .major-wrap .employment-situation > ul {
+  text-align: center;
+  line-height: 45px;
+  width: 40%;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  margin-top: -120px;
+}
+.major-container > .major-wrap .employment-situation > ul > li {
+  color: #015ba2;
+}
+.major-container > .major-wrap .employment-situation > ul > li > span {
+  color: #cd5d3d;
+}
+.major-container > .major-wrap .employment-situation > ul > li#employment-situation-btn {
+  color: #ffffff;
+  border-radius: 100px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #cd5d3d;
+  width: 50%;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .major-container > .major-wrap .employment-situation > ul {
+    line-height: 18px;
+    width: 40%;
+    font-size: 12px;
+    right: 16px;
+    margin-top: -56px;
+  }
+  .major-container > .major-wrap .employment-situation > ul > li#employment-situation-btn {
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked {
+    max-height: 212px;
+  }
+  .major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > h3 {
+    font-size: 17px;
+  }
+  .major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > div > span {
+    font-size: 17px;
+  }
+  .major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-checked .swiper-slide > section > div > p {
+    font-size: 17px;
+  }
+  .major-container > .major-wrap .checked-us > .checked-us-detail .checked-us-list > #swiper-container-students {
+    max-height: 1200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .major-container > .major-wrap .employment-situation > div {
+    width: 55%;
+  }
+  .major-container > .major-wrap .employment-situation > ul {
+    line-height: 16px;
+    width: 45%;
+    font-size: 12px;
+    right: 0;
+    margin-top: -48px;
+  }
+  .major-container > .major-wrap .employment-situation > ul > li#employment-situation-btn {
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    width: 80%;
+    margin-top: 0;
+  }
+}

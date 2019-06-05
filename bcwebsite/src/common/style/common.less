@@ -1,0 +1,1021 @@
+.common-header-container {
+    width: 100%;
+    >.common-header-wrap {
+        &.common-fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99999999;
+        }
+    }
+    .header {
+        display: block;
+        font-size: 0;
+        background: #333;
+        position: relative;
+        >img {
+            width: 100%;
+            min-height: 40px;
+        }
+        >.nav-btn {
+            width: 32px;
+            height: 20px;
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+            right: 5%;
+            display: none;
+            span {
+                display: block;
+                width: 32px;
+                height: 3px;
+                background: #ffffff;
+                margin-bottom: 5px;
+            }
+        }
+        >.phone {
+            position: absolute;
+            display: block;
+            width: 272px;
+            height: 22px;
+            line-height: 22px;
+            color: #ffffff;
+            font-size: 25px; 
+            top: 50%;
+            margin-top: -11px;
+            right: 0;
+            >img {
+                float: left;
+                width: 22px;
+                height: 22px;
+                margin-right: 10px;
+            }
+            >span {
+                float: left;
+            }
+        }
+    }
+    .mobile-nav {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        width: 130px;
+        color: #ffffff;
+        background: #333333;
+        display: none;
+        >ul {
+            >li {
+                border-bottom: 1px solid #000000;
+                padding: 10px;
+                text-align: center;
+                cursor: pointer;
+                &:last {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+    .mobile-phone,
+    .mobile-qq {
+        display: none;
+        width: 360px;
+        height: 40px;
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: left;
+        margin: 10px auto;
+        border-radius: 100px;
+        >span {
+            >i {
+                margin-left: 10px;
+            }
+        }
+    }
+    .mobile-phone {
+        background: orange; 
+        >img {
+            width: 22px;
+            height: 22px;
+            margin: 10px 20px 0 20px;
+            float: left;
+            
+        }
+    }
+    .mobile-qq {
+        background: #1793f5;
+        >img {
+            width: 30px;
+            height: 30px;
+            margin: 6px 15px 0 17px;
+            float: left;
+        }
+    }
+    .nav {
+        height: 50px;
+        background-color: #f2f2f2;
+        line-height: 50px;
+        ul {
+            margin: 0 auto;
+            li {
+                float: left;
+                padding: 0 38px;
+                text-align: center;
+                cursor: pointer;
+                &:hover {
+                    background-color: #015ba2;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .swiper-container {
+        .swiper-wrapper {
+            .swiper-slide {
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        .nav {
+            display: none;
+        }
+        .mobile-phone,
+        .mobile-qq {
+            width: 300px;
+            display: block;
+            font-size: 20px;
+        }
+        .header {
+            >.nav-btn {
+                display: block;
+            }
+            >.phone {
+                display: none;
+            }
+        }
+    }
+}
+.common-course-introduce {
+    >.common-course-detail {
+        >div {
+            float: left;
+            &.course-detail-sidebar {
+                width: 20%;
+                height: 533px;
+                overflow-y: auto;
+                margin-right: 2%;
+                background-color: #1a1a1a;
+                color: #ffffff;
+                >ul {
+                    >li {
+                        background-color: #1a1a1a;
+                        text-align: center;
+                        border-bottom: 1px solid #000000;
+                        cursor: pointer;
+                        >p {
+                            font-size: 16px;
+                            padding: 10px 0;
+                            color: #fc0d1b;
+                        }
+                        >ol {
+                            display: none;
+                            &.active {
+                                display: block;
+                            }
+                            background-color: #1a1a1a;
+                            position: relative;
+                            top: 1px;
+                            >li {
+                                padding: 10px;
+                                text-align: left;
+                                border-bottom: 1px solid #000000;
+                                &.active {
+                                    color: #ffffff;
+                                    background-color: #fb5057;
+                                }
+                                &:hover {
+                                    color: #ffffff;
+                                    background-color: #fb5057;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.course-detail-main {
+                width: 76.5%;
+                height: 533px;
+                overflow: hidden;
+                background: #1a1a1a;
+                position: relative;
+                >div {
+                    overflow-y: auto;
+                    padding: 20px 20px 60px 20px;
+                    height: 85%;
+                    >ul {
+                        >li {
+                            >h3 {
+                                font-size: 18px;
+                                color: #015ba2;
+                                font-weight: 600;
+                                border-bottom: 1px solid #cccccc;
+                                padding: 10px 0;
+                                margin-bottom: 20px;
+                            }
+                            >span {
+                                color: #ffffff;
+                                line-height: 40px;
+                                margin-right: 20px;
+                                >img {
+                                    width: 14px;
+                                    height: 12px;
+                                    margin-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                >section {
+                    display: none;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 50px;
+                    background: #fc0d1b;
+                    color: #ffffff;
+                    >div {
+                        height: 100%;
+                        >img {
+                            width: 20px;
+                            height: 20px;
+                            margin: 0 10px 0 20px;
+                            position: relative;
+                            float: left;
+                        }
+                        >span {
+                            position: relative;
+                            float: left;
+                            
+                        }
+                        i {
+                            float: left;
+                            height: 100%;
+                        }
+                    }
+                    >.course-employment-jobs {
+                        float: left;
+                        >#commonpage-course-employment {
+                            float: left;
+                            padding: 5px 0;
+                            width: 460px;
+                        }
+                        >img {
+                            float: left;
+                            top:14px;
+                        }
+                        >span {
+                            float: left;
+                            top:14px;
+                        }
+                    }
+                    >.course-employment-salary {
+                        float: right;
+                        margin-right: 20px;
+                        line-height: 50px;
+                        >i {
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: 50px;
+                        }
+                        >img {
+                            top:50%;
+                            margin-top: -10px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width: 1024px) {
+    .common-course-introduce {
+        >.common-course-detail {
+            >div {
+                &.course-detail-main {
+                    >section {
+                        >.course-employment-jobs {
+                            display: none;
+                        } 
+                        >.course-employment-salary {
+                            float: left;
+                            margin-right: 0;
+                        }                                 
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width: 768px) {
+    .common-course-introduce {
+        >.common-course-detail {
+            >div {
+                float: left;
+                &.course-detail-sidebar {
+                    width: 42%;
+                }
+                &.course-detail-main {
+                    width: 55.5%;
+                    >div {
+                        padding: 20px 10px;
+                    }
+                    >section {
+                        >.course-employment-jobs {
+                            display: none;
+                        } 
+                        >.course-employment-salary {
+                            float: left;
+                            i {
+                                font-size: 14px;
+                            }
+                        }                               
+                    }
+                }
+            }
+        }
+    }
+}
+.common-footer-container {
+    width: 100%;
+    background-color: #000032; 
+    position: relative;
+    color: #ffffff;
+    >.pc {
+        display: block;
+        width: 100%;
+        height: 100%;
+        >.footer {
+            position: relative;
+            height: 310px;
+            >div {
+                float: left;
+            }
+            >.about-us {
+                line-height: 40px;
+                position: absolute;
+                bottom: 0;
+                left: 32px;
+                >ul {
+                    margin-bottom: 12px;
+                    >.logo {
+                        >img {
+                            display: block;
+                            width: 130px;
+                        }
+                    }
+                }
+                >.entry-button {
+                    >li {
+                        float: left;
+                        color: #ffffff;
+                        margin-right: 15px;
+                        padding: 0 68px;
+                        border-radius: 3px; 
+                        cursor: pointer;
+                        &.bg-blue {
+                            background-color:#3390f2; 
+                        }
+                        &.bg-red {
+                            background-color:#fc4b5a; 
+                        }
+                        &.bg-orange {
+                            background-color:#fd8248; 
+                        }
+                    }
+                }
+            }
+            >.address {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                margin-left: -135px;
+                >.first {
+                    margin-bottom: 20px;
+                }
+                img {
+                    display: block;
+                    width: 265px;
+                    height: 159px;
+                }
+            }
+            >.contact {
+                text-align: right;
+                position: absolute;
+                bottom: 0;
+                right: 32px;
+                >section {
+                    float: left;
+                    margin-right: 15px;
+                    >img {
+                        display: block;
+                        width: 130px;
+                        height: 130px;
+                    }
+                    >p {
+                        text-align: center;
+                        height: 30px;
+                        color: #333333;
+                        background: #ffffff;
+                    }
+                }
+            }
+        }
+        >.record {
+            width: 100%;
+            height: 70px;
+            margin-top: 30px;
+            color: #ffffff;
+            text-align: center;
+        }
+    }
+    >.mobile {
+        display: none;
+    }
+    
+    .fixed-width {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+body {
+    -webkit-tap-highlight-color: transparent;
+    @media screen and (max-width:767px){
+        .swiper-button-prev,
+        .swiper-button-next {
+            display: none;
+        }
+        .fixed-width {
+            max-width: 1280px;
+            padding: 0 16px 16px 16px !important;
+            margin: 0 auto;
+        }
+        .common-class-opening-plan {
+            .class-list {
+                .swiper-slide {
+                    .class-list-wrap {
+                        margin-left: 0;
+                        >li {
+                            width: 100%;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1200px){
+        .common-project-introduction {
+            >.detail {
+                h3 {
+                    >span {
+                       font-size: 18px;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                }
+                >.introduction {
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .common-class-opening-plan {
+            .class-list {
+                .swiper-slide {
+                    width: 100%;
+                    .class-list-wrap {
+                        margin-left: 0;
+                        >li {
+                            width: 100%;
+                            margin-bottom: 35px;
+                            &.list-center {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .common-footer-container {
+            text-align: center;
+            padding: 0;
+            height: inherit;
+            background: #ffffff;
+            color: #333333;
+            >.pc {
+                display: none;
+            }
+            >.mobile {
+                display: block;
+                >.contact {
+                    width: 262px;
+                    margin: 10px auto;
+                    >section {
+                        float: left;
+                        >img {
+                            width: 130px;
+                            height: 130px;
+                        }
+                        >p {
+                            text-align: center;
+                            height: 30px;
+                            color: #333333;
+                            background: #ffffff;
+                        }
+                    }
+                }
+                >.address {
+                    margin-bottom: 50px;
+                    text-align: left;
+                    line-height: 30px;
+                    >ul {
+                        >li {
+                            margin-bottom: 10px;
+                            .title {
+                                padding: 0 10px;
+                                width: 85px;
+                                display: inline-block;
+                                background-color: #3390f2;
+                                border-radius: 3px;
+                                color: #ffffff;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    >.record {
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+                }
+                >.phone {
+                    -webkit-appearance: none;
+                    height: 50px;
+                    width: 100%;
+                    line-height: 50px;
+                    background-color: #000032;
+                    font-size: 20px;
+                    color: #ffffff;
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1000;
+                    text-align: center;
+                    cursor: pointer;
+                    >img {
+                        width: 25px;
+                        height: 25px;
+                        position: relative;
+                        top: 5px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .common-employment-detail {
+            >.employment-list {
+                >.employment-list-wrap {
+                    .employment-list-head {
+                        li {
+                            padding-top: 8px;
+                            height: 40px;
+                            line-height: normal;
+                        }
+                    }
+                }
+                >.nav {
+                    height: 32px;
+                    >.employment-list-nav {
+                        display: none;
+                        background: #666666;
+                        overflow-x: auto;
+                        line-height: 33px;
+                        position: absolute;
+                        top: 79px;
+                        right: 0;
+                        z-index: 2;
+                        >li {
+                            float: none;
+                            border-bottom: 1px solid #999696;
+                            color: #ffffff;
+                            text-align: center;
+                            span {
+                                border: none;
+                            }
+                        }
+                    }
+                    >.nav-btn {
+                        top: 17px;
+                        right: 2%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:420px){
+        .common-employment-detail {
+            >.employment-title {
+                span {
+                    font-size: 18px;
+                    width: 286px; 
+                }
+            }
+        }
+    }
+}
+.fixed-width {
+    max-width: 1280px;
+    padding: 0 32px 32px 32px;
+    margin: 0 auto;
+}
+.pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 15px;
+    height: 3px;
+    border-radius: 10px;
+    background: #aaaaaa;
+    margin: 0 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.swiper-active-switch {
+    background: #eb0c17;
+}
+.common-project-introduction {
+    >.project {
+        position: relative;
+        padding-top: 32px;
+        >#swiper-container-project {
+            max-height: 300px !important;
+            overflow: hidden;
+            margin-left: 30px;
+            .swiper-wrapper {
+                width: 100%;
+                height: 100%;
+
+                >.swiper-slide {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #f9f9f9;
+                }
+            }
+            img {
+                display: block;
+                width: 95%;
+                margin: 0 auto;
+                box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+                border: 1px solid #cccccc \9;
+            }
+        }
+
+        >.title {
+            float: left;
+            width: 30px;
+            font-size: 20px;
+            color: #015ba2;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-top: -89px;
+            font-weight: 600;
+        }
+    }
+    >.detail {
+        h3 {
+            >span {
+                width: 100%;
+                padding: 0;
+                text-align: center;
+            }
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+}
+.common-class-opening-plan {
+    background-color: #f9f9f9;
+    .class-list {
+        >.swiper-container {
+            max-height: 210px !important;
+            overflow: hidden;
+        }
+        .class-list-wrap {
+            overflow: hidden;
+            font-size: 18px;
+            >li {
+                background: #fff;
+                border-radius: 10px;
+                width: 95%;
+                margin-left: 6px;
+                height: 210px;
+                float: left;
+                cursor: pointer;
+                &.last {
+                    margin: 0;
+                }
+                .title {
+                    margin: 15px 25px;
+                    h3 {
+                        font-size: 22px;
+                        color: #015ba2;
+                        font-weight: 600; 
+                        float: left;
+                    }
+                    span {
+                        float: right;
+                        position: relative;
+                        margin-left: 10px;
+                        top: 2px;
+                    }
+                }
+                .start-time {
+                    margin: 0 25px 15px 25px;
+                }
+                .entrance-details {
+                    display: block;
+                    margin: 0 25px;
+                    position: relative;
+                    >.entrance {
+                        float: left;
+                        width: 50%;
+                        >.address {
+                            font-size: 18px;
+                            color: #ff0000;
+                            margin-bottom: 15px;
+                        }
+                        >.sign-up-entry {
+                            display: block;
+                            border: none;
+                            color: #ffffff;
+                            background-color: #ff0000; 
+                            width: 100%;
+                            max-width: 155px;
+                            height: 40px;
+                            border-radius: 100px; 
+                            font-size: 14px;
+                            cursor: pointer;
+                            &.btn-disabled {
+                                background-color: #cccccc; 
+                            }
+                        }
+                    }
+                    >.detail {
+                        float: right;
+                        width: 50%;
+                        max-width: 122px;
+                        max-height: 98px;
+                        position: absolute;
+                        bottom: -7px;
+                        right: -7px;
+                        img {
+                            display: block;
+                            width: 100%;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
+.common-employment-detail {
+    >.employment-title {
+        padding: 25px 0;
+        span {
+            display: block;
+            width: 450px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 28px;
+            color: #015ba2;
+            font-weight: 600;
+        }
+    }
+    >.employment-list {
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+        border: 1px solid #cccccc \9;
+        >.nav {
+            height: 68px;
+            position: relative;
+            background: #ffffff;
+            >.nav-btn {
+                width: 32px;
+                height: 20px;
+                position: absolute;
+                top: 35px;
+                margin-top: -10px;
+                right: 5%;
+                display: none;
+                span {
+                    display: block;
+                    width: 32px;
+                    height: 3px;
+                    background: #333333;
+                    margin-bottom: 5px;
+                }
+            }
+            >.employment-list-nav {
+                background-color: #ffffff;
+                height: 68px;
+                line-height: 68px;
+                display: block;
+                >li {
+                    float: left;
+                    >span {
+                        padding: 0 20px;
+                        border-right: 1px solid #cccccc; 
+                        &.last {
+                            border-right: none;
+                        }
+                    }
+                    &:hover {
+                        background-color:#fb7178;
+                        color: #ffffff; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        >.employment-list-wrap {
+            height: 390px;
+            overflow: hidden;
+            .employment-list-head {
+                background-color: #666666; 
+                width: 100%;
+                >li {
+                    float: left;
+                    color: #ffffff;
+                    width: 14.28%;
+                    height: 68px;
+                    line-height: 68px;
+                    text-align: center;
+                    &.row-sub-red {
+                        background-color: #fb5057;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .employment-list-scroll {
+                height: 350px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                .employment-list-body {
+                    position: absolute;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    >li {
+                        font-size: 0;
+                        overflow: hidden;
+                        span {
+                            float: left;
+                            font-size: 14px;
+                            width: 14.28%;
+                            min-width: 40px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            height: 46px;
+                            line-height: 46px;
+                            text-align: center;
+                            &.company {
+                                // max-width: 160px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            &.row-sub-red {
+                                background-color: #fb5057;
+                                color: #ffffff;
+                            }
+                        }
+                        &.col-gray {
+                            background-color: #f5f5f5; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// common
+.main-title {
+    padding: 35px 0;
+    >h3 {
+        >span {
+            display: block;
+            position: relative;
+            width: 230px;
+            height: 28px;
+            font-size: 28px;
+            color: #015ba2;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: center;
+            margin: 0 auto;
+            z-index: 1;
+        }
+    }
+    >p {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.main-title-dec {
+    padding: 25px 0;
+    >h3 {
+        >span {
+            display: block;
+            position: relative;
+            width: 320px;
+            height: 28px;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: center;
+            margin: 0 auto;
+            z-index: 1;
+            >img {
+                width: 32px;
+                height: 19px;
+            }
+        }
+    }
+    >p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    @media screen and (max-width: 767px){
+        >h3 {
+            >span {
+                font-size: 22px;
+                width: 230px;
+                >img {
+                    width: 16px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}
+
+.underline-blue {
+    &:after {
+        content: '';
+        position: relative;
+        top: -14px;
+        display: block;
+        border-bottom: 2px solid #015ba2;
+    }
+}
+
+.box-gray {
+    background-color: #f9f9f9;
+}
+.box-white {
+    background-color: #ffffff;
+}
+.box-black {
+    background-color: #0e0315;
+}
+.box-2d38c8 {
+    background-color: #2d38c8;
+}
+.clear-fix:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.clear-fix {
+    zoom: 1;
+}

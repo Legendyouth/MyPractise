@@ -1,0 +1,350 @@
+.test-container .test-wrap .test-pro-intro {
+  padding-top: 35px;
+  position: relative;
+  background-color: #2d38c7;
+  overflow: hidden;
+}
+.test-container .test-wrap .test-pro-intro > section {
+  margin-top: 20px;
+}
+.test-container .test-wrap .test-pro-intro > section.data {
+  width: 57%;
+  margin-right: 3%;
+}
+.test-container .test-wrap .test-pro-intro > section.data > img {
+  display: block;
+  width: 100%;
+}
+.test-container .test-wrap .test-pro-intro > section.intro {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  margin-top: -101px;
+  right: 15px;
+}
+.test-container .test-wrap .test-pro-intro > section.intro > ul {
+  font-size: 18px;
+  margin: 0 auto;
+}
+.test-container .test-wrap .test-pro-intro > section.intro > ul > li {
+  color: #ffffff;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.test-container .test-wrap .test-pro-intro > section.intro > ul > li.title > h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.test-container .test-wrap .test-pro-intro > section.intro > ul > li > span {
+  font-size: 20px;
+  color: #ffa018;
+  font-weight: 600;
+}
+.test-container .test-wrap .test-pro-intro > div {
+  text-align: center;
+  margin-top: 20px;
+}
+.test-container .test-wrap .test-pro-intro > div > section {
+  border: 3px solid #f7f4fd;
+  display: inline-block;
+  border-radius: 25px;
+}
+.test-container .test-wrap .test-pro-intro > div > section > p {
+  padding: 3px 60px;
+  background-color: #8b41f9;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid #d6bcfd;
+}
+.test-container .test-wrap .project-process-detail > ul > li {
+  text-align: center;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p {
+  display: inline-block;
+  color: #fff;
+  border-radius: 25px;
+  margin: 0 20px 30px 20px;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p.p-style-1 {
+  border: 3px solid #f9ebd8;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p.p-style-2 {
+  border: 3px solid #d7f9ee;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p.p-style-3 {
+  border: 3px solid #ebe1fa;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p > span {
+  padding: 6px 60px;
+  border-radius: 25px;
+  display: block;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p > span.s-style-1 {
+  background-color: #ffa018;
+  border: 3px solid #fbd7a3;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p > span.s-style-2 {
+  background-color: #13d291;
+  border: 3px solid #a2fadd;
+}
+.test-container .test-wrap .project-process-detail > ul > li > p > span.s-style-3 {
+  background-color: #8b41f9;
+  border: 3px solid #d6bcfd;
+}
+.test-container .test-wrap .project-process-detail > .btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.test-container .test-wrap .project-process-detail > .btn > section {
+  border: 3px solid #b2dbf8;
+  display: inline-block;
+  border-radius: 25px;
+}
+.test-container .test-wrap .project-process-detail > .btn > section > p {
+  padding: 3px 60px;
+  background-color: #4168f9;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid #4186f9;
+}
+.test-container .test-wrap .test-salary {
+  position: relative;
+}
+.test-container .test-wrap .test-salary > img {
+  display: block;
+  width: 100%;
+}
+.test-container .test-wrap .test-salary .test-salary-title {
+  color: #ffffff;
+  padding: 40px 0;
+}
+.test-container .test-wrap .test-salary .test-salary-title > h3 > span {
+  display: block;
+  position: relative;
+  width: 360px;
+  height: 28px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+.test-container .test-wrap .test-salary .test-salary-title > p {
+  margin-top: 20px;
+  text-align: center;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary {
+  max-height: 182px;
+  overflow: hidden;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section {
+  text-align: center;
+  color: #fff;
+  width: 95%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #cccccc \9;
+  background-color: #5760d3;
+  border-radius: 10px;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > h3 {
+  padding: 5% 10%;
+  font-size: 24px;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > span {
+  display: inline-block;
+  padding-bottom: 5%;
+  font-size: 24px;
+  font-weight: 600;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > span > img {
+  width: 20px;
+  height: 30px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > p {
+  font-size: 28px;
+  padding-bottom: 6%;
+  font-weight: 600;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour {
+  max-height: 820px;
+  overflow: hidden;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section {
+  width: 96%;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li {
+  position: relative;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > img {
+  display: block;
+  width: 78%;
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  z-index: 1;
+  border-radius: 13%;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > div img {
+  display: block;
+  width: 100%;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > h3 {
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  width: 90%;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > h3 i,
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > h3 span {
+  display: inline-block;
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > h3 > span {
+  float: right;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > span > em {
+  color: #e3411e;
+}
+.test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour .swiper-slide > section > div > ul > li > p {
+  width: 90%;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (device-width: 1024px) {
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary {
+    max-height: 150px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .test-container .test-wrap .test-pro-intro > section.data {
+    width: 50%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro {
+    width: 43%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul {
+    font-size: 14px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li {
+    line-height: 35px;
+    margin-top: 10px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li.title > h3 {
+    font-size: 20px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li > span {
+    font-size: 16px;
+  }
+  .test-container .test-wrap .project-process-detail > ul > li > p {
+    margin: 0 10px 20px 10px;
+  }
+  .test-container .test-wrap .project-process-detail > ul > li > p > span {
+    padding: 6px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .test-container .test-wrap .students-elegant-demeanour > #swiper-container-demeanour {
+    max-height: 1200px;
+  }
+  .test-container .test-wrap .project-process-detail > ul > li > p {
+    margin: 0 10px 20px 10px;
+  }
+  .test-container .test-wrap .project-process-detail > ul > li > p > span {
+    padding: 6px 36px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.data {
+    width: 50%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro {
+    width: 43%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul {
+    font-size: 12px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li {
+    line-height: 20px;
+    margin-top: 2px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li.title > h3 {
+    font-size: 14px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li > span {
+    font-size: 14px;
+  }
+  .test-container .test-wrap .test-salary .test-salary-title {
+    padding: 20px 0;
+  }
+  .test-container .test-wrap .test-salary .test-salary-title > h3 > span {
+    width: 304px;
+    font-size: 22px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary {
+    max-height: 115px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > h3 {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > span {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > p {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (max-width: 359px) {
+  .test-container .test-wrap .project-process-detail > ul > li > p {
+    margin: 0 5px 10px 5px;
+  }
+  .test-container .test-wrap .project-process-detail > ul > li > p > span {
+    padding: 6px 30px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.data {
+    width: 48%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro {
+    width: 46%;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul {
+    font-size: 12px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li.title > h3 {
+    font-size: 12px;
+  }
+  .test-container .test-wrap .test-pro-intro > section.intro > ul > li > span {
+    font-size: 12px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary {
+    max-height: 102px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > h3 {
+    font-size: 18px;
+    padding: 3px 0;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > span {
+    padding: 3px 0;
+    font-size: 16px;
+  }
+  .test-container .test-wrap .test-salary > .test-salary-detail > #swiper-container-salary .swiper-slide > section > div > p {
+    font-size: 16px;
+    padding: 3px 0;
+  }
+}

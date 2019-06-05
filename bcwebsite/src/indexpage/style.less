@@ -1,0 +1,524 @@
+.index-container {
+    min-width: 320px;
+    .index-wrap {
+        .course-wrap {
+            .course-detail {
+                width: 100%;
+                >.web-development,
+                >.course-outline {
+                    margin: 0 auto;
+                    float: left;
+                    position: relative;
+                    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+                    border: 1px solid #cccccc \9;
+                    overflow: hidden;
+                    position: relative;
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    >span {
+                        position: absolute;
+                        width: 100%;
+                        text-align: center;
+                        bottom: 20%;
+                        font-weight: 600;
+                        font-size: 25px;
+                        left: 0;
+                    }
+                }
+                >.course-outline {
+                    width: 32%;
+                    >div {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        overflow-y: auto;
+                        >ul {
+                            width: 82%;
+                            padding: 9%;
+                            >li {
+                                float: left;
+                                border: 1px solid #4d95f4;
+                                border-radius: 100px;
+                                line-height: 24px;
+                                padding: 0 10px;
+                                text-align: center; 
+                                margin: 0 10px 10px 0;
+                            }
+                        }
+                    }
+                }
+                >.web-development {
+                    width: 32%;
+                    margin-right: 1.6%;
+                    margin-bottom: 25px;
+                }
+                >.salary-course {
+                    float: left;
+                    width: 32%;;
+                    margin-right: 1.6%;
+                    >section {
+                        cursor: pointer;
+                        position: relative;
+                        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+                        border: 1px solid #cccccc \9;
+                        &.first {
+                            margin-bottom:5.8%;
+                        }
+                        img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        >span {
+                            position: absolute;
+                            width: 100%;
+                            font-weight: 600;
+                            text-align: center;
+                            bottom: 20%;
+                            font-size: 25px;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .obtain-employment-direction {
+            >.main-title {
+                >h3 {
+                    >span {
+                        width: 100%;
+                        text-align: center;
+                        padding: 0;
+                    }
+                }
+            }
+            >.detail {
+                width: 100%;
+                height: 450px;
+                position: relative;
+                overflow: hidden;
+                >.background {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                >.decoration {
+                    text-align: center;
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    z-index: 2;
+                    >img {
+                        width: 150px;
+                        height: 300px;
+                    }
+                }
+                >.scroll {
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    >img {
+                        float: left;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .elite-teachers-wrap {
+            .elite-teachers-detail {
+                width: 100%;
+                overflow: hidden;
+                padding-left: 5px;
+                >.swiper-container {
+                    max-height: 400px;
+                    overflow: hidden;
+                }
+                .list {
+                    >li {
+                        float: left;
+                        cursor: pointer; 
+                        position: relative;
+                        width: 95%;
+                        &:hover {
+                            >.mask {
+                                display: block;
+                            }
+                            >.introduction  {
+                                display: none;
+                            }
+                        }
+                        >.mask {
+                            display: none;
+                            position: absolute;
+                            color: #ffffff;
+                            width: 82%;
+                            height: 88%;
+                            top: 0;
+                            left: 0;
+                            background: rgba(0, 0, 0, 0.7);
+                            padding: 9%;
+                            >.name {
+                                font-size: 26px;
+                                margin: 70px 0 15px 0;
+                            }
+                            >.position {
+                                font-size: 20px;
+                                margin-bottom: 20px;
+                            }
+                            >.detail {
+                                word-break: break-all;
+                            }
+                        }
+                        >.introduction {
+                            position: absolute;
+                            width: 86%;
+                            left: 0;
+                            bottom: 0;
+                            padding: 2% 7%;
+                            color: #ffffff;
+                            background: rgba(0, 0, 0, 0.2);
+                            >.name {
+                                font-size: 26px;
+                            }
+                            >.position {
+                                font-size: 20px;
+                            }
+                        }
+                        &.last {
+                            margin-right: 0; 
+                        }
+                        >img {
+                            display: block;
+                            width: 100%;
+                            max-height: 385.06px;
+                        }
+                    }
+                }
+                >.btn {
+                    text-align: center;
+                    margin-top: 20px;
+                    >section {
+                        border: 3px solid #fceed0;
+                        display: inline-block;
+                        border-radius: 25px;
+                        >p {
+                            padding: 5px 60px;
+                            background-color: #f19d2f;
+                            color: #fff;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            border: 3px solid #fcc277;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .dynamic-campus {
+            .detail {
+                box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+                border: 1px solid #cccccc \9;
+                padding: 2% 2% 0 2%;
+                margin: 0 auto;
+                >.notebook-list,
+                >.scenery {
+                    float: left;
+                    width: 49%;
+                    margin: 0 auto;
+                    >#swiper-container-scenery {
+                        max-height: 691px !important;
+                        overflow: hidden;
+                        img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    >.swiper-container-scenery-detail {
+                        max-height: 120px !important;
+                        overflow: hidden;
+                        margin-top: 9px;
+                        .swiper-slide {
+                            width: 150px;
+                            height: 120px;
+                            text-align: center;
+                            img {
+                                display: block;
+                                width: 95%;
+                                height: 100%;
+                                margin-left: 3px;
+                            }
+                        }
+                    }
+                }
+                >.notebook-list {
+                    width: 49%;
+                    margin: 0 auto;
+                    margin-bottom: 25px;
+                    margin-right: 2%;
+                    max-height: 563px;
+                    overflow-y: auto; 
+                    >ul {
+                        >li {
+                            cursor: pointer;
+                            border-bottom: 1px solid #f2f2f2;
+                            overflow: hidden;
+                            padding: 15px 0;
+                            position: relative;
+                            >.time {
+                                position: absolute;
+                                right: 0;
+                                bottom: 15px;
+                            }
+                            >.notebook {
+                                float: left;
+                                width: 80%;
+                                >img {
+                                    width: 120px;
+                                    height: 70px;
+                                    float: left;
+                                    margin-right: 20px;
+                                }
+                                >span {
+                                    float: left;
+                                    width: 63%;
+                                    line-height: 24px;
+                                    height: 70px;
+                                    overflow: hidden;
+                                    word-break: break-all;
+                                }
+                            }
+                        }
+                    }
+                }
+                >.introduction {
+                    >img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:1024px){
+            .dynamic-campus {
+                .detail {
+                    >.notebook-list,
+                    >.scenery {
+                        display: block;
+                        width: 100%;
+                        height: 400px;
+                        
+                    }
+                    >.notebook-list {
+                        height: 287px;
+                        >ul {
+                            >li {
+                                >.notebook {
+                                    width: 100%;
+                                    span {
+                                        width: 78%;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                    >.scenery {
+                        height: 100%;
+                        margin-bottom: 10px;
+                        >#swiper-container-scenery {
+                            img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        >.swiper-container-scenery-detail {
+                            height: 150px;
+                            margin-top: 9px;
+                            .swiper-slide {
+                                height: 150px;
+                                text-align: center;
+                                img {
+                                    display: block;
+                                    width: 95%;
+                                    height: 100%;
+                                    margin-left: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:1200px){
+            .dynamic-campus {
+                .detail {
+                    >.notebook-list {
+                        >ul {
+                            >li {
+                                >.notebook {
+                                    span {
+                                        width: 50%;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .elite-teachers-wrap {
+                .elite-teachers-detail {
+                    .list {
+                        >li {
+                            &:hover {
+                                >.mask {
+                                    display: none;
+                                }
+                                >.introduction {
+                                    display: block;
+                                }
+                            }
+                            >.introduction {
+                                display: block;
+                                >.name {
+                                    font-size: 18px;
+                                }
+                                >.position {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:767px) {
+            .dynamic-campus {
+                .detail {
+                    >.notebook-list {
+                        >ul {
+                            >li {
+                                >.notebook {
+                                    width: 100%;
+                                    span {
+                                        width: 48%;
+                                    }
+                                }
+                                >.time {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    >.scenery {
+                        height: 100%;
+                        margin-bottom: 10px;
+                        >#swiper-container-scenery {
+                            img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        >.swiper-container-scenery-detail {
+                            height: 92px;
+                            margin-top: 9px;
+                            .swiper-slide {
+                                height: 92px;
+                                text-align: center;
+                                img {
+                                    display: block;
+                                    width: 95%;
+                                    height: 100%;
+                                    margin-left: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .elite-teachers-wrap {
+                .elite-teachers-detail {
+                    .list {
+                        >li {
+                            margin: 0;
+                            width: 100%;
+                            >.introduction {
+                                width: 82%;
+                                padding: 1% 6%;
+                                >.name {
+                                    font-size: 18px;
+                                }
+                                >.position {
+                                    font-size: 14px;
+                                }
+                            }
+                            img {
+                                width: 95%;
+                            }
+                        }
+                    }
+                }
+            }
+            .course-wrap {
+                .course-detail {
+                    >.web-development,
+                    >.salary-course {
+                        width: 49%;
+                        margin-right: 0;
+                        span {
+                            font-size: 12px !important;
+                        }
+                    }
+
+                    >.web-development {
+                        margin-right: 2%;
+                    }
+
+                    >.course-outline {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:320px) {
+            .elite-teachers-wrap {
+                .elite-teachers-detail {
+                    .list {
+                        >li {
+                            margin: 0;
+                            width: 100%;
+                            >.introduction {
+                                width: 84%;
+                                padding: 1% 6%;
+                                >.name {
+                                    font-size: 18px;
+                                }
+                                >.position {
+                                    font-size: 12px;
+                                }
+                            }
+                            img {
+                                width: 95%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

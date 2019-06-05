@@ -1,0 +1,9 @@
+.teachers-container > .teachers-wrap .teachers-detail > ul > li {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.teachers-container > .teachers-wrap .teachers-detail > ul > li > img {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,442 @@
+.index-container {
+  min-width: 320px;
+}
+.index-container .index-wrap .course-wrap .course-detail {
+  width: 100%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .web-development,
+.index-container .index-wrap .course-wrap .course-detail > .course-outline {
+  margin: 0 auto;
+  float: left;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid #cccccc \9;
+  overflow: hidden;
+  position: relative;
+}
+.index-container .index-wrap .course-wrap .course-detail > .web-development img,
+.index-container .index-wrap .course-wrap .course-detail > .course-outline img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .web-development > span,
+.index-container .index-wrap .course-wrap .course-detail > .course-outline > span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 20%;
+  font-weight: 600;
+  font-size: 25px;
+  left: 0;
+}
+.index-container .index-wrap .course-wrap .course-detail > .course-outline {
+  width: 32%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .course-outline > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.index-container .index-wrap .course-wrap .course-detail > .course-outline > div > ul {
+  width: 82%;
+  padding: 9%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .course-outline > div > ul > li {
+  float: left;
+  border: 1px solid #4d95f4;
+  border-radius: 100px;
+  line-height: 24px;
+  padding: 0 10px;
+  text-align: center;
+  margin: 0 10px 10px 0;
+}
+.index-container .index-wrap .course-wrap .course-detail > .web-development {
+  width: 32%;
+  margin-right: 1.6%;
+  margin-bottom: 25px;
+}
+.index-container .index-wrap .course-wrap .course-detail > .salary-course {
+  float: left;
+  width: 32%;
+  margin-right: 1.6%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .salary-course > section {
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid #cccccc \9;
+}
+.index-container .index-wrap .course-wrap .course-detail > .salary-course > section.first {
+  margin-bottom: 5.8%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .salary-course > section img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index-container .index-wrap .course-wrap .course-detail > .salary-course > section > span {
+  position: absolute;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  bottom: 20%;
+  font-size: 25px;
+  left: 0;
+}
+.index-container .index-wrap .obtain-employment-direction > .main-title > h3 > span {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .background {
+  width: 100%;
+  height: 100%;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .background img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .decoration {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .decoration > img {
+  width: 150px;
+  height: 300px;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .scroll {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.index-container .index-wrap .obtain-employment-direction > .detail > .scroll > img {
+  float: left;
+  height: 100%;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 5px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail > .swiper-container {
+  max-height: 400px;
+  overflow: hidden;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  width: 95%;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li:hover > .mask {
+  display: block;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li:hover > .introduction {
+  display: none;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .mask {
+  display: none;
+  position: absolute;
+  color: #ffffff;
+  width: 82%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 9%;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .mask > .name {
+  font-size: 26px;
+  margin: 70px 0 15px 0;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .mask > .position {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .mask > .detail {
+  word-break: break-all;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction {
+  position: absolute;
+  width: 86%;
+  left: 0;
+  bottom: 0;
+  padding: 2% 7%;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .name {
+  font-size: 26px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .position {
+  font-size: 20px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li.last {
+  margin-right: 0;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > img {
+  display: block;
+  width: 100%;
+  max-height: 385.06px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail > .btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail > .btn > section {
+  border: 3px solid #fceed0;
+  display: inline-block;
+  border-radius: 25px;
+}
+.index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail > .btn > section > p {
+  padding: 5px 60px;
+  background-color: #f19d2f;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid #fcc277;
+}
+.index-container .index-wrap .dynamic-campus .detail {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid #cccccc \9;
+  padding: 2% 2% 0 2%;
+  margin: 0 auto;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list,
+.index-container .index-wrap .dynamic-campus .detail > .scenery {
+  float: left;
+  width: 49%;
+  margin: 0 auto;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > #swiper-container-scenery,
+.index-container .index-wrap .dynamic-campus .detail > .scenery > #swiper-container-scenery {
+  max-height: 691px !important;
+  overflow: hidden;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > #swiper-container-scenery img,
+.index-container .index-wrap .dynamic-campus .detail > .scenery > #swiper-container-scenery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > .swiper-container-scenery-detail,
+.index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail {
+  max-height: 120px !important;
+  overflow: hidden;
+  margin-top: 9px;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > .swiper-container-scenery-detail .swiper-slide,
+.index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide {
+  width: 150px;
+  height: 120px;
+  text-align: center;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > .swiper-container-scenery-detail .swiper-slide img,
+.index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide img {
+  display: block;
+  width: 95%;
+  height: 100%;
+  margin-left: 3px;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list {
+  width: 49%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-right: 2%;
+  max-height: 563px;
+  overflow-y: auto;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li {
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f2;
+  overflow: hidden;
+  padding: 15px 0;
+  position: relative;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .time {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook {
+  float: left;
+  width: 80%;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook > img {
+  width: 120px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+.index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook > span {
+  float: left;
+  width: 63%;
+  line-height: 24px;
+  height: 70px;
+  overflow: hidden;
+  word-break: break-all;
+}
+.index-container .index-wrap .dynamic-campus .detail > .introduction > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list,
+  .index-container .index-wrap .dynamic-campus .detail > .scenery {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list {
+    height: 287px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook {
+    width: 100%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook span {
+    width: 78%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery {
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > #swiper-container-scenery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail {
+    height: 150px;
+    margin-top: 9px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide {
+    height: 150px;
+    text-align: center;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook span {
+    width: 50%;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li:hover > .mask {
+    display: none;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li:hover > .introduction {
+    display: block;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction {
+    display: block;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .name {
+    font-size: 18px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .position {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook {
+    width: 100%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .notebook span {
+    width: 48%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .notebook-list > ul > li > .time {
+    display: none;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery {
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > #swiper-container-scenery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail {
+    height: 92px;
+    margin-top: 9px;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide {
+    height: 92px;
+    text-align: center;
+  }
+  .index-container .index-wrap .dynamic-campus .detail > .scenery > .swiper-container-scenery-detail .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: 3px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li {
+    margin: 0;
+    width: 100%;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction {
+    width: 82%;
+    padding: 1% 6%;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .name {
+    font-size: 18px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .position {
+    font-size: 14px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li img {
+    width: 95%;
+  }
+  .index-container .index-wrap .course-wrap .course-detail > .web-development,
+  .index-container .index-wrap .course-wrap .course-detail > .salary-course {
+    width: 49%;
+    margin-right: 0;
+  }
+  .index-container .index-wrap .course-wrap .course-detail > .web-development span,
+  .index-container .index-wrap .course-wrap .course-detail > .salary-course span {
+    font-size: 12px !important;
+  }
+  .index-container .index-wrap .course-wrap .course-detail > .web-development {
+    margin-right: 2%;
+  }
+  .index-container .index-wrap .course-wrap .course-detail > .course-outline {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li {
+    margin: 0;
+    width: 100%;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction {
+    width: 84%;
+    padding: 1% 6%;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .name {
+    font-size: 18px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li > .introduction > .position {
+    font-size: 12px;
+  }
+  .index-container .index-wrap .elite-teachers-wrap .elite-teachers-detail .list > li img {
+    width: 95%;
+  }
+}
